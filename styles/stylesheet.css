@@ -1,0 +1,67 @@
+/* Global styles */
+
+* { margin: 0;
+    padding: 0;}
+
+body {font-family: "Helvetica", sans-serif;
+      background-color: hsla(272, 3%, 75%, 0.3);}
+
+a { color: white;
+    text-decoration: none;
+    font-size: 1.1rem;}
+
+li {list-style: none;}
+
+/* Header styles */
+
+header {background-color: white;}
+
+h1 {font-size: 3rem;
+    color: hsla(272, 22%, 46%, 1);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;}
+
+header nav {list-style: none;
+            text-align: center;
+            background-color: hsla(272, 22%, 46%, 1);
+            border: 1px solid hsla(272, 22%, 32%, 1);} 
+
+header li { display: inline-block;
+            padding: 0.5rem 3rem;
+            border-left: 4px solid hsla(272, 22%, 32%, 1);}
+
+header li:first-of-type {border-left: none;}
+
+/* Sidebar nav styles */
+
+.sidenav {float: left;
+          background-color: hsla(272, 22%, 75%, 1);
+          height: 400px;
+          padding: 4rem;}
+
+.sidenav li {margin: 1rem;}
+
+/* Content section styles */
+
+section { float: right;
+          text-align: center;
+          width: 75%;
+          padding: 56px 20px;}
+
+section p { padding: 1rem 8rem;
+            font-size: 0.8rem;
+            color: hsla(272, 3%, 16%, 1);}
+
+section img {width: 50%;
+              margin-top: 1.4rem;}
+
+/* Footer styles */
+
+footer {clear: both;
+        text-align: center;
+        background-color: white;
+        padding: 1.6rem}
+
+footer img {height: 34px;
+            padding: 1rem;}
