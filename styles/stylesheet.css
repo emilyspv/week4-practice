@@ -33,35 +33,77 @@ header li { display: inline-block;
 
 header li:first-of-type {border-left: none;}
 
-/* Sidebar nav styles */
+html {height: 100%;}
+body {height: 100%;}
+.sidenav {height: 100%;}
+
+/* Sidebar styles */
 
 .sidenav {float: left;
           background-color: hsla(272, 22%, 75%, 1);
-          height: 400px;
+          width: 120px;
           padding: 4rem;}
 
 .sidenav li {margin: 1rem;}
+
+.sidenav p {width: 150px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+            border-top: 1px solid hsla(272, 22%, 32%, 1);
+            padding-top: 10px;
+            color: hsla(272, 22%, 32%, 1);}
+
+.sidenav p:first-of-type {border-left: none;}
+
+.sidenav h4 { color: white;
+              font-size: 1.1rem;
+              padding-bottom: 20px;}
+
+.sidenav img {width: 140px;
+              margin-top: 20px;
+              border: 4px solid hsla(272, 22%, 46%, 1);}
 
 /* Content section styles */
 
 section { float: right;
           text-align: center;
-          width: 75%;
-          padding: 56px 20px;}
+          max-width: 70%;}
 
-section p { padding: 1rem 8rem;
+section h2 {padding-top: 2rem;
+            padding-bottom: 2rem;
+            color: color: hsla(272, 22%, 32%, 1);}
+
+section p { padding: 1rem 4rem;
             font-size: 0.8rem;
             color: hsla(272, 3%, 16%, 1);}
 
-section img {width: 50%;
-              margin-top: 1.4rem;}
+section img { width: 50%;
+              margin-top: 3rem;}
+
+.content {text-align: left;
+          padding-left: 4rem;
+          padding-right: 4rem;}
+
+.gallery {  float: left;
+            padding-top: 1rem;
+            padding-bottom: 5rem;
+            padding-right: 0.5rem;}
+
+.gallery img {display: inline;
+              height: 180px;
+              width: auto;
+              padding: 0;
+              margin: 0;}
 
 /* Footer styles */
 
 footer {clear: both;
         text-align: center;
         background-color: white;
-        padding: 1.6rem}
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        bottom: 0;}
 
 footer img {height: 34px;
             padding: 1rem;}
