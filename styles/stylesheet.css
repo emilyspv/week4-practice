@@ -40,7 +40,7 @@ body {height: 100%;}
 /* Sidebar styles */
 
 .sidenav {float: left;
-          background-color: hsla(272, 22%, 75%, 1);
+          background-color: hsla(233, 8%, 22%, 1);
           width: 120px;
           padding: 4rem;}
 
@@ -51,7 +51,7 @@ body {height: 100%;}
             margin-bottom: 10px;
             border-top: 1px solid hsla(272, 22%, 32%, 1);
             padding-top: 10px;
-            color: hsla(272, 22%, 32%, 1);}
+            color: lightgray;}
 
 .sidenav p:first-of-type {border-left: none;}
 
@@ -67,7 +67,8 @@ body {height: 100%;}
 
 section { float: right;
           text-align: center;
-          max-width: 70%;}
+          max-width: 70%;
+          overflow: scroll;}
 
 section h2 {padding-top: 2rem;
             padding-bottom: 2rem;
